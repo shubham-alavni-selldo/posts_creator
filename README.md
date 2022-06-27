@@ -49,16 +49,16 @@ Content-Type: application/json
 
 ###  Get Popular Posts
 
-method: GET
-url: http://localhost:3000/api/v1/popular_posts
+- method: GET
+- url: http://localhost:3000/api/v1/popular_posts
 
 ###  Maximum comments by user
 
-method: GET
-url: http://localhost:3000/api/v1/max_comments_by_user
+- method: GET
+- url: http://localhost:3000/api/v1/max_comments_by_user
 
 ###  Reply to a comment
 
-method: POST
-url: http://localhost:3000/api/v1/:comment_id/reply
-body: { "reply": { "body": "This is one awesome post I have read in recent days" } }
+- method: POST
+- url: http://localhost:3000/api/v1/:comment_id/reply
+- body: { "reply": { "body": "This is one awesome post I have read in recent days" } }
