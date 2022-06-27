@@ -1,8 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+% Ruby - 2.7.0
+% mysql - 8.0.29
 
+## Steps to setup
+
+```
+git clone https://github.com/swathinimmala/posts_creator.git
+```
+```
+cd posts_creator
+bundle install
+bundle rake db:create
+bundle rake db:migrate
+rails server
+```
 ## Headers to all requests (except signin and signup)
 
 Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyIiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNjU2MzEwMDg0LCJleHAiOjE2NTc2MDYwODQsImp0aSI6ImNhMGI5YWE3LTZkYzctNGUyMC1iYzk0LWVkNjczMDEyMzQ5OCJ9.1ezjdiAv8vDK1pzVy0SLnM-YYmC6z14hbP1YhaVI3PU
