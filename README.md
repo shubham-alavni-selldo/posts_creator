@@ -1,7 +1,10 @@
 # README
 
-% Ruby - 2.7.0
-% mysql - 8.0.29
+## System Requirements
+```
+Ruby - 2.7.0
+mysql - 8.0.29
+```
 
 ## Steps to setup
 
